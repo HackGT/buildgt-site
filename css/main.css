@@ -3,6 +3,7 @@
   --bg-primary: #dcf7e4;
   --text-body: #6c72ab;
   --link-gray: #aaa;
+  --link-dark-gray: #555;
 }
 
 @font-face {
@@ -115,6 +116,9 @@ h1, h2 {
 
 .svg-div {
     height: 100%;
+
+    /* this is a little trick we'll do so mobile will flip which is on top */
+    float: right;
 }
 
 #about > .grid {
@@ -143,4 +147,58 @@ td {
 
 .footer {
     text-align: center;
+}
+
+@media (max-width: 800px) {
+    .grid.header {
+        font-size: 1.25em;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .grid {
+        padding: 2em;
+    }
+
+    .grid.header {
+        margin-bottom: -6em;
+    }
+
+    #about .grid {
+        margin-bottom: 0.5em;
+    }
+
+    .grid.no-mobile-padding {
+        padding: 0;
+    }
+
+    .svg-div {
+        /*float: none;
+        clear: both;*/
+        max-width: 80%;
+        text-align: right;
+        height: inherit;
+    }
+
+    .nav {
+        padding-bottom: 0;
+    }
+
+    .nav > .grid__col {
+        clear: both;
+        float: left;
+        position: absolute;
+        font-size: 1.25em;
+
+    }
+
+    .nav a {
+        color: var(--link-dark-gray);
+    }
+
+    .header {
+        position: relative;
+        top: -6em;
+    }
 }
