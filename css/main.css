@@ -199,6 +199,20 @@ td {
         position: absolute;
         font-size: 1.25em;
         z-index: 100;
+
+        width: 150%;
+        padding-left: 2em;
+        left: -1em;
+        padding-top: 2em;
+        padding-bottom: 1em;
+        top: 0;
+
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .nav > .grid__col a {
+        position: relative;
+        top: -0.5em;
     }
 
     .nav a {
