@@ -85,28 +85,20 @@ h1, h2, h3 {
 .button::before {
     content: "";
     background-color: var(--text-header);
-    width: 100%;
-    height: 100%;
-    left: 100%;
+    width: 200%;
+    height: 200%;
+    /*left: 100%;*/
+    left: 0;
     top: 0;
     position: absolute;
-    transition: 0.5s all;
+    transition: 0.75s all;
+    transform: translateX(-100%) rotate(90deg);
 }
 
-.button::after {
-    content: "";
-    background-color: var(--text-header);
-    width: 100%;
-    height: 100%;
-    left: -100%;
-    top: 0;
-    position: absolute;
-    transition: 0.5s all;
-}
-
-.button:hover::after, .button:hover::before {
+.button:hover::before {
     left: 0;
     z-index: -1;
+    transform: rotate(0deg);
 }
 
 .button:hover {
