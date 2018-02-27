@@ -190,6 +190,7 @@ td {
 
     .nav {
         padding-bottom: 0;
+        z-index: 100;
     }
 
     .nav > .grid__col {
@@ -197,7 +198,7 @@ td {
         float: left;
         position: absolute;
         font-size: 1.25em;
-
+        z-index: 100;
     }
 
     .nav a {
