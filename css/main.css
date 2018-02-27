@@ -36,7 +36,7 @@ body {
     margin: 0;
 }
 
-h1, h2, h3 {
+h1, h2 {
     font-family: 'ProximaNova', sans-serif;
     color: var(--text-header);
 }
@@ -51,7 +51,7 @@ h1, h2, h3 {
 }
 
 .nav a {
-    padding: 0 1em;
+    padding: 0 1.5vw;
     text-decoration: none;
     color: var(--link-gray);
 }
@@ -67,7 +67,7 @@ h1, h2, h3 {
 
 .grid.header {
     margin-top: 15%;
-    font-size: 1.25em;
+    font-size: 1.5em;
 }
 
 .button {
@@ -115,4 +115,32 @@ h1, h2, h3 {
 
 .svg-div {
     height: 100%;
+}
+
+#about > .grid {
+    margin-bottom: 4em;
+}
+
+
+table {
+    width: 100%;
+    position: relative;
+    left: -2px;
+}
+
+td {
+    padding: 0.5em 0;
+}
+
+#faq > div h2:not(:first-of-type) {
+    margin-top: 2.5em;
+}
+
+.green {
+    background-color: var(--bg-primary);
+    padding-bottom: 1em;
+}
+
+.footer {
+    text-align: center;
 }
