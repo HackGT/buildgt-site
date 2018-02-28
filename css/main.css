@@ -59,6 +59,10 @@ h1, h2 {
     padding: 2em 0;
 }
 
+a {
+    color: var(--text-header);
+}
+
 .nav a {
     padding: 0 1.5vw;
     text-decoration: none;
