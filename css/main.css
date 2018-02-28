@@ -129,7 +129,7 @@ h1, h2 {
     float: right;
 }
 
-#about > .grid {
+#info > .grid {
     margin-bottom: 1.5em;
 }
 
@@ -177,7 +177,7 @@ td {
         margin-bottom: -6em;
     }
 
-    #about .grid {
+    #info .grid {
         margin-bottom: 0.5em;
     }
 
