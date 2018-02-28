@@ -165,6 +165,10 @@ td {
 
 @media (max-width: 700px) {
 
+    body {
+        margin-top: 5em;
+    }
+
     .grid {
         padding: 2em;
     }
@@ -206,7 +210,7 @@ td {
         padding-bottom: 1em;
         top: 0;
 
-        background-color: rgba(255, 255, 255, 0.9);
+        background-color: #fff;
     }
 
     .nav > .grid__col a {
