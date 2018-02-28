@@ -129,7 +129,7 @@ h1, h2 {
 }
 
 #about > .grid {
-    margin-bottom: 4em;
+    margin-bottom: 1.5em;
 }
 
 
@@ -181,8 +181,6 @@ td {
     }
 
     .svg-div {
-        /*float: none;
-        clear: both;*/
         max-width: 80%;
         text-align: right;
         height: inherit;
